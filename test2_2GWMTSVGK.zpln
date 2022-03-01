@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%sql\nselect name, email, address from students\nwhere address like \u0027%Kolkata\u0027",
+      "text": "%sql\nselect name, email, address from students\nwhere address like \u0027%Kolkata%\u0027",
       "user": "anonymous",
-      "dateUpdated": "2022-03-01 09:59:41.887",
+      "dateUpdated": "2022-03-01 10:01:31.623",
       "progress": 0,
       "config": {
         "editorSetting": {

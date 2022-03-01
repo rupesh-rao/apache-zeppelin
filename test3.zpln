@@ -39,6 +39,17 @@
    "text": "%sql\nselect * from db.students\nwhere class == 5\nand last_name = 'Gupta' ",
    "id": "",
    "config": {}
+  },
+  {
+   "settings": {
+    "params": {},
+    "forms": {}
+   },
+   "apps": [],
+   "status": "READY",
+   "text": "%sql\n\nselect * from db.students\nwhere class == 10\nand city = 'Kolkata' ",
+   "id": "",
+   "config": {}
   }
  ],
  "name": "Zeppelin Notebook",

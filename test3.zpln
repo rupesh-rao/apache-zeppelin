@@ -47,7 +47,7 @@
    },
    "apps": [],
    "status": "READY",
-   "text": "%sql\n\nselect * from db.students\nwhere class == 10\nand city = 'Kolkata' ",
+   "text": "%sql\n\nselect * from db.students\nwhere class == 10\nand city = 'Kolkata' and last_name = 'Gupta' ",
    "id": "",
    "config": {}
   }
